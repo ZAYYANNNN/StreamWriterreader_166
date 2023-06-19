@@ -16,7 +16,11 @@ int main()
 	while (true)
 		cout << "- ";
 	//mendapatkan setiap karakter dalam satu baris
-	getline(cin, baris)
+	getline(cin, baris);
+	//Loop akan berhenti jika ada yang memasukan karakter q
+	if (baris == "q") break;
+
+
 	
 	
 
