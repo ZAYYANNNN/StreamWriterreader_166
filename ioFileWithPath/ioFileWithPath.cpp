@@ -4,5 +4,13 @@
 using namespace std;
 
 int main() {
-	
+	string baris;
+	string namaFile;
+
+	cout << "Masukan Nama File : ";
+	cin >> namaFile;
+
+	//membuka file dalam mode menulis
+	ofstream outfile;
+
 }
